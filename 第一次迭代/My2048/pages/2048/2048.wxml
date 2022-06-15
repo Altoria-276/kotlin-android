@@ -1,0 +1,33 @@
+<!--pages/2048/2048.wxml-->
+<view class="container">
+  <view class="game_container">
+    <view class="game_heading">
+      <view class="game_model">
+        <text class="game_model_title">Game
+        </text>
+        2048
+      </view>
+      <view class="game_score">
+        <text class="game_score_title">SCORE
+        </text>
+        {{score}}
+      </view>
+      <view class="game_best_score">
+        <text class="game_best_score_title">BEST
+        </text>
+        {{best_score}}
+      </view>
+    </view>
+    <view class="game_body"></view>
+    <view class="game_bottom">
+      <view class="game_timing">
+        <text class="game_timing_title">Time
+        </text>
+        {{timing}}
+      </view>
+      <image class="help_button" src="/image/help_icon.png"></image>
+      <image class="restart_button" src="/image/restart_icon.png"></image>
+      <image class="return_button" src="/image/return_icon.png"></image>
+    </view>
+  </view>
+</view>

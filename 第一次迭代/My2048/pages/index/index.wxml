@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="game_start_button">
+    <button type="primary" bindtap="start"> 2048 </button>
+  </view>
+
+  <view class="more">
+    更多游戏待开发~~~ 也许 _(:з」∠)_
+  </view>
+</view>

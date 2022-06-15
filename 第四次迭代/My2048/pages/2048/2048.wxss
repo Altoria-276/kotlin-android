@@ -1,0 +1,180 @@
+/* pages/2048/2048.wxss */
+
+.container {
+  margin: 0;
+  background-color: blanchedalmond;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20rpx;
+  height: 100vh;
+}
+
+.game_heading {
+  margin-bottom: 40rpx;
+  margin-top: 40rpx;
+}
+
+.game_model,
+.game_score,
+.game_best_score {
+  position: relative;
+  display: inline-block;
+  background: darkgray;
+  padding: 10rpx;
+  font-size: medium;
+  height: 80rpx;
+  width: 20%;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-right: 20rpx;
+  border-radius: 40rpx;
+}
+
+.game_best_score {
+  margin-right: 0rpx;
+}
+
+
+.game_model {
+  width: 40%;
+  background-color: peachpuff;
+  color: darkgoldenrod;
+  font-size: medium;
+  margin-right: 50rpx;
+}
+
+.game_best_score_title,
+.game_score_title {
+  font-size: x-small;
+  font-weight: lighter;
+  color: bisque;
+}
+
+.game_bottom {
+  margin-top: 40rpx;
+}
+
+.game_message,
+.restart_button,
+.return_button,
+.help_button {
+  background-color: darkolivegreen;
+  position: relative;
+  float: left;
+  padding: 20rpx;
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 10rpx;
+  border-radius: 20rpx;
+}
+
+.return_button {
+  margin-right: 0rpx;
+}
+
+.game_message {
+  background-color: lightpink;
+  width: 35%;
+  margin-right: 70rpx;
+  position: relative;
+  font-size: large;
+  font-weight: bold;
+  color: cadetblue;
+  text-align: center;
+}
+
+.game_body {
+  margin-top: 10rpx;
+  position: relative;
+  padding: 20rpx 20rpx;
+  cursor: default;
+  touch-action: none;
+  background: navajowhite;
+  width: 600rpx;
+  height: 600rpx;
+  border-radius: 20px;
+}
+
+.grid_row {
+  margin-bottom: 20rpx;
+  height: 135rpx;
+}
+
+.grid_row:last-child {
+  margin-bottom: 0rpx;
+}
+
+.grid-row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.grid_cell {
+  width: 135rpx;
+  height: 135rpx;
+  margin-right: 20rpx;
+  float: left;
+  border-radius: 40rpx;
+  background-color: darkgray;
+  display: flex;
+}
+
+.grid_cell:last-child {
+  margin-right: 0;
+}
+
+.tile {
+  font-weight: bold;
+  font-size: 60rpx;
+  border-radius: 40rpx;
+  font-family: 'Courier New', Courier, monospace;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile_2 {
+  background: azure;
+}
+
+.tile_4 {
+  background: aquamarine;
+}
+
+.tile_8 {
+  background: aqua;
+}
+
+.tile_16 {
+  background: cornflowerblue;
+}
+
+.tile_32 {
+  background: blue;
+}
+
+.tile_64 {
+  background: blueviolet;
+}
+
+.tile_128 {
+  background: chartreuse;
+}
+
+.tile_256 {
+  background: deeppink;
+}
+
+.tile_512 {
+  background: firebrick;
+}
+
+.tile_1024 {
+  background: darkorange;
+}
+
+.tile_2048 {
+  background: gold;
+}

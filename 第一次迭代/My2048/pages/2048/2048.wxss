@@ -1,0 +1,85 @@
+/* pages/2048/2048.wxss */
+
+.container {
+  margin: 0;
+  background-color: blanchedalmond;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20rpx;
+}
+
+.game_body {
+  margin-top: 10rpx;
+  position: relative;
+  padding: 20rpx 20rpx;
+  cursor: default;
+  touch-action: none;
+  background: navajowhite;
+  width: 600rpx;
+  height: 600rpx;
+}
+
+.game_model,
+.game_score,
+.game_best_score {
+  position: relative;
+  display: inline-block;
+  background: darkgray;
+  padding: 10rpx;
+  font-size: medium;
+  height: 80rpx;
+  width: 20%;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 10rpx 10rpx 10rpx;
+}
+
+
+.game_model {
+  width: 40%;
+  background-color: peachpuff;
+  color: darkgoldenrod;
+  font-size: medium;
+}
+
+.game_best_score_title,
+.game_score_title {
+  font-size: x-small;
+  font-weight: lighter;
+  color: bisque;
+}
+
+.game_bottom {
+  margin-top: 20rpx;
+  box-sizing: border-box;
+}
+
+.game_timing,
+.restart_button,
+.return_button,
+.help_button {
+  background-color: lightslategray;
+  position: relative;
+  display: inline-block;
+  padding: 20rpx;
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 10rpx;
+}
+
+.game_timing {
+  background-color: lightpink;
+  width: 35%;
+  height: 70rpx;
+  margin-right: 50rpx;
+  position: relative;
+  font-size: large;
+  font-weight: bold;
+  color: cadetblue;
+  text-align: center;
+}
+
+.game_timing_title {
+  font-weight: normal;
+  color: bisque;
+}

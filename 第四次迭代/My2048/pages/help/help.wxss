@@ -1,0 +1,33 @@
+/* pages/help/help.wxss */
+.container {
+  height: 100vh;
+  background-color: blanchedalmond;
+  display: block;
+}
+
+.help_title {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  padding: 40rpx;
+}
+
+.help_2048 {
+  margin-top: 20rpx;
+  background: darkcyan;
+  border-radius: 40rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.help_title_2048 {
+  text-align: center;
+  font-weight: bold;
+  padding: 10rpx;
+}
+
+.help_game_2048 {
+  padding: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}

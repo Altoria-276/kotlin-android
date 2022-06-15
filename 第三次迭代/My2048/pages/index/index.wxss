@@ -1,0 +1,12 @@
+/**index.wxss**/
+
+.container {
+  height: 100vh;
+  background-color: blanchedalmond;
+}
+
+.more {
+  margin-top: 60rpx;
+  font-size: large;
+  font-weight: bold;
+}
